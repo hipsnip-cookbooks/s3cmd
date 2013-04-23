@@ -1,4 +1,4 @@
-Description [![Build Status](https://travis-ci.org/hipsnip/s3cmd.png)](https://travis-ci.org/hipsnip/s3cmd)
+Description [![Build Status](https://travis-ci.org/hipsnip-cookbooks/s3cmd.png)](https://travis-ci.org/hipsnip-cookbooks/s3cmd)
 ===========
 A simple recipe for installing the s3cmd tool using the default package manager on the system.
 It then creates configuration files for the list of users defined in the attributes (see below).
@@ -29,7 +29,7 @@ in your run list.
 
 Development
 ============
-Please refer to our wiki page [here](https://github.com/hipsnip/cookbook-development/wiki/Developing-and-Testing)
+Please refer to the Readme [here](https://github.com/hipsnip-cookbooks/cookbook-development/blob/master/README.md)
 
 
 License and Author
