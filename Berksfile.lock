@@ -1,4 +1,16 @@
-cookbook 's3cmd', :path => '/Users/adamb/Sites/s3cmd'
-cookbook 'apt', :locked_version => '1.9.2'
-cookbook 'minitest-handler', :locked_version => '0.1.7'
-cookbook 'chef_handler', :locked_version => '1.1.4'
+{
+  "sources": {
+    "hipsnip-s3cmd": {
+      "path": "."
+    },
+    "apt": {
+      "locked_version": "2.1.0"
+    },
+    "minitest-handler": {
+      "locked_version": "0.2.1"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    }
+  }
+}
