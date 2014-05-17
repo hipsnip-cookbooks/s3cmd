@@ -1,6 +1,6 @@
 require File.expand_path('../support/helpers', __FILE__)
 
-describe_recipe "logentries-rsyslog::default" do
+describe_recipe "hipsnip-s3cmd::default" do
   include Helpers::CookbookTest
 
   let(:s3cmd_version) { assert_sh("s3cmd --version") }
